@@ -15,28 +15,29 @@ class MainApp(App):
                  375, 125, 500, 500, 500, 1000, ]
         for i in range(0, 25):
             Beep(frequency[i], delay[i])
+
     def run(self):
-        # name = input("亲，请告诉我你叫啥呗\n")
-        #
-        # age = int(input("名字都告诉我了，年龄也告诉我呗:\n"))
-        #
-        # time.sleep(1)
-        # print("接下来就是见证奇迹的时刻")
-        # time.sleep(3)
-        # for i in range(1, 667):
-        #     print("{}个生日快乐！！！".format(i))
-        #     time.sleep(0.01)
-        #
-        # print("我写了666个生日快乐来祝福你亲")
-        # time.sleep(3)
-        # print("这个程序可能略显简陋。。。")
-        # time.sleep(3)
-        # print("祝 {} 岁的 婷婷 永远开心快乐!".format(age / 2))
-        # time.sleep(3)
-        # print("岁数少一倍，快乐翻一倍哦亲~ ~ ~")
-        # time.sleep(3)
-        # print("为你献上最美的祝福亲~ ~ ~")
-        # time.sleep(3)
+        name = input("亲，请告诉我你叫啥呗\n")
+
+        age = int(input("名字都告诉我了，年龄也告诉我呗:\n"))
+
+        time.sleep(1)
+        print("接下来就是见证奇迹的时刻")
+        time.sleep(3)
+        for i in range(1, 667):
+            print("{}个生日快乐！！！".format(i))
+            time.sleep(0.01)
+
+        print("我写了666个生日快乐来祝福你亲")
+        time.sleep(3)
+        print("这个程序可能略显简陋。。。")
+        time.sleep(3)
+        print("祝 {} 岁的 婷婷 永远开心快乐!".format(age / 2))
+        time.sleep(3)
+        print("岁数少一倍，快乐翻一倍哦亲~ ~ ~")
+        time.sleep(3)
+        print("为你献上最美的祝福亲~ ~ ~")
+        time.sleep(3)
 
         ch = input("这份生日礼物还算满意嘛？输入y或n告诉我(注意大小写哦\n")
         while ch == 'Y' or ch == 'N':
